@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulaPass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- agregar el json de colores.json -->
+    <script src="colores.json"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            -webkit-user-select: none;
+            /* Chrome, Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE 10+ */
+            user-select: none;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease, color 0.5s ease;
+        }
+
+        input {
+            width: 300px;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.3s ease;
+            color: #000;
+            /* Mantiene el color del texto negro */
+        }
+
+        input:focus {
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+        }
+
+        #qrcode {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto 0 auto;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Button Styles */
+        .btn {
+            padding: 10px 20px;
+            margin: 5px;
+            /* Reduce el margen para que los botones estén más juntos */
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: flex;
+            /*  Para centrar el ícono en el botón  */
+            align-items: center;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        #generate-button {
+            background-color: #007bff;
+            /* Blue */
+            color: #fff;
+        }
+
+        #download-button {
+            background-color: #28a745;
+            /* Green */
+            color: #fff;
+        }
+
+        #random-color-button {
+            background-color: #dc3545;
+            /* Red */
+            color: #fff;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            /* Centers the buttons */
+        }
+
+        @media (max-width: 600px) {
+            input {
+                width: 90%;
+            }
+
+            .buttons {
+                flex-direction: column;
+                /* Stack buttons vertically on smaller screens */
+            }
+        }
+
+        .qr-container {
+            display: none;
+            width: 100%;
+            max-width: 300px;
+            /* Ajusta este valor según sea necesario */
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .qr-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="qr-container">
+        <div class="title">aulaPass beta 1.0</div>
+        <!-- <div class="subtitle">Proporciona un texto para crear el QR</div> -->
+        <div>
+            <div class="form-group">
+                <label for="apellidoPaterno">Apellido Paterno:</label>
+                <input type="text" class="form-control" id="apellidoPaterno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellidoMaterno">Apellido Materno:</label>
+                <input type="text" class="form-control" id="apellidoMaterno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nombres">Nombre(s):</label>
+                <input type="text" class="form-control" id="nombres" required>
+            </div>
+        </div>
+        <div>
+            <label for="numeroControl">Número de Control:</label>
+            <input type="text" id="numeroControl" name="numeroControl">
+        </div>
+        <div>
+            <label for="grupo">Grupo:</label>
+            <select id="grupo" name="grupo">
+                <!--   <option value="1A">1A</option>
+                <option value="1B">1B</option>
+                <option value="1C">1C</option>
+                <option value="1D">1D</option>
+                <option value="1E">1E</option>
+                <option value="1F">1F</option> -->
+                <option value="2A">2A</option>
+                <option value="2B">2B</option>
+                <option value="2C">2C</option>
+                <option value="2D">2D</option>
+                <option value="2E">2E</option>
+                <option value="2F">2F</option>
+                <option value="4F">4A</option>
+                <option value="4F">4B</option>
+                <option value="4F">4C</option>
+                <option value="4F">4D</option>
+                <option value="4F">4E</option>
+                <option value="6A">6A</option>
+                <option value="6B">6B</option>
+                <option value="6C">6C</option>
+                <option value="6D">6D</option>
+                <option value="6E">6E</option>
+
+
+
+                <!-- ...other options... -->
+            </select>
+        </div>
+        <div>
+            <label for="especialidad">Especialidad:</label>
+            <select id="especialidad" name="especialidad">
+                <option value="Enfermeria">Enfermería</option>
+                <option value="Radiologia">Radiología</option>
+            </select>
+        </div>
+        <input id="text" type="text" value="" class="mt-4" disabled style="display: none;" />
+        <div class="buttons">
+            <button id="generate-button" class="btn" onclick="makeCode()"><svg xmlns="http://www.w3.org/2000/svg"
+                    height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                    <path
+                        d="M120-520v-320h320v320H120Zm80-80h160v-160H200v160Zm-80 480v-320h320v320H120Zm80-80h160v-160H200v160Zm320-320v-320h320v320H520Zm80-80h160v-160H600v160Zm160 480v-80h80v80h-80ZM520-360v-80h80v80h-80Zm80 80v-80h80v80h-80Zm-80 80v-80h80v80h-80Zm80 80v-80h80v80h-80Zm80-80v-80h80v80h-80Zm0-160v-80h80v80h-80Zm80 80v-80h80v80h-80Z" />
+                </svg></button> <!--  Generar QR (Play Button) -->
+            <button id="download-button" class="btn" disabled><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                    <path
+                        d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+                </svg></button> <!--  Descargar QR (Download Button) -->
+        </div>
+        <div id="qrcode" class="qr-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/baroninn/qrcodejs@master/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/baroninn/qrcodejs@master/qrcode.js"></script>
+    <script>
+        document.getElementById('apellidoPaterno').addEventListener('input', checkFields);
+        document.getElementById('apellidoMaterno').addEventListener('input', checkFields);
+        document.getElementById('nombres').addEventListener('input', checkFields);
+        document.getElementById('numeroControl').addEventListener('input', checkFields);
+        document.getElementById('grupo').addEventListener('input', checkFields);
+        document.getElementById('especialidad').addEventListener('input', checkFields);
+
+
+       
+        // Inicialmente deshabilitar los botones
+        checkFields();
+
+        function generarNombreCompleto() {
+            const apellidoPaterno = document.getElementById('apellidoPaterno').value.trim();
+            const apellidoMaterno = document.getElementById('apellidoMaterno').value.trim();
+            const nombres = document.getElementById('nombres').value.trim();
+
+            return `${apellidoPaterno} ${apellidoMaterno} ${nombres}`;
+        }
+
+
+
+
+        function checkFields() {
+            const apellidoPaterno = document.getElementById('apellidoPaterno').value.trim();
+            const apellidoMaterno = document.getElementById('apellidoMaterno').value.trim();
+            const nombres = document.getElementById('nombres').value.trim();
+            const numeroControl = document.getElementById('numeroControl').value.trim();
+            const grupo = document.getElementById('grupo').value.trim();
+            const especialidad = document.getElementById('especialidad').value.trim();
+
+            const allFieldsFilled = apellidoPaterno && apellidoMaterno && nombres && numeroControl && grupo && especialidad;
+
+            document.getElementById('generate-button').disabled = !allFieldsFilled;
+            document.getElementById('download-button').disabled = !allFieldsFilled;
+        }
+        // Cargar el archivo colores.json
+        fetch('colores.json')
+            .then(response => response.json())
+            .then(data => {
+                // Almacenar los colores en una variable
+                const colores = data.colores;
+
+                // Función para obtener un color contrastante basado en el brillo del color pasado
+                function getContrastingColor(color) {
+                    const hex = color.replace('#', '');
+                    const r = parseInt(hex.substring(0, 2), 16);
+                    const g = parseInt(hex.substring(2, 4), 16);
+                    const b = parseInt(hex.substring(4, 6), 16);
+                    const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+                    return brightness > 125 ? '#000000' : '#ffffff';
+                }
+
+                // Función para cambiar los colores del QR y la interfaz
+                function setQRCodeColors() {
+                    // Seleccionar un color aleatorio de la lista
+                    const color = colores[Math.floor(Math.random() * colores.length)];
+
+                    // Aplicar degradado animado de fondo al body
+                    document.body.style.background = `linear-gradient(135deg, ${color.qrColor}, ${color.bgColor})`;
+
+                    // Cambiar colores y borde del contenedor
+                    const container = document.getElementById('qr-container');
+                    container.style.backgroundColor = color.bgColor;
+                    container.style.border = `5px solid ${color.qrColor}`;
+                    container.style.boxShadow = `0 4px 20px ${color.qrColor}`;
+
+                    // Cambiar color del texto en el contenedor
+                    const textColor = getContrastingColor(color.bgColor);
+                    container.style.color = textColor;
+
+                    // Cambiar el color del borde del input, pero mantener el texto negro
+                    const input = document.getElementById('text');
+                    input.style.borderColor = color.qrColor;
+                }
+
+                // Función para generar el código QR
+                function makeCode() {
+                    var nombreCompleto = generarNombreCompleto();
+                    var numeroControl = document.getElementById('numeroControl').value;
+                    var grupo = document.getElementById('grupo').value;
+                    var especialidad = document.getElementById('especialidad').value;
+                    var qrText = `No=${nombreCompleto}&ID=${numeroControl}&Gr=${grupo}&Es=${especialidad}`;
+                    var encodedQRText = encodeURIComponent(qrText);
+
+                    // Utilizar la API de QRServer para generar el código QR
+                    var qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodedQRText}`;
+                    document.getElementById("qrcode").innerHTML = `<img src="${qrUrl}">`;
+
+                    // Cambiar los colores del QR y la interfaz
+                    setQRCodeColors();
+
+                    // Enable the download button after generating the QR code
+                    document.getElementById('download-button').disabled = false;
+                    document.querySelector('.qr-container').style.display = 'block';
+                }
+
+                // Generar el primer QR
+                /*  makeCode(); */
+
+                // Añadir eventos para generar el QR al presionar enter o al perder el foco
+                $("#text").on("blur", function () {
+                    makeCode();
+                }).on("keydown", function (e) {
+                    if (e.keyCode == 13) {
+                        makeCode();
+                    }
+                });
+
+                // Function to download the QR image
+                function downloadQR() {
+                    const qrImage = document.getElementById("qrcode").getElementsByTagName("img")[0];
+                  
+                    const nombreSinEspacios = nombreAlumno.replace(/ /g, ''); // Eliminar espacios
+                    const nombreSinAcentos = nombreSinEspacios.normalize("NFD").replace(/[\u0300-\u036f]/g, ''); // Eliminar acentos
+                    const nombreSinÑ = nombreSinAcentos.replace(/ñ/g, 'n'); // Reemplazar ñ por n
+                    const downloadLink = document.createElement("a");
+                    downloadLink.href = qrImage.src;
+                    downloadLink.download = `${nombreSinÑ}.png`;
+                    document.body.appendChild(downloadLink);
+                    downloadLink.click();
+                    document.body.removeChild(downloadLink);
+                }
+
+                // Add event listeners to the buttons
+                document.getElementById('generate-button').addEventListener('click', makeCode);
+                document.getElementById('download-button').addEventListener('click', downloadQR);
+            })
+            .catch(error => console.error('Error cargando colores.json:', error));
+    </script>
+
+</body>
+
+</html>

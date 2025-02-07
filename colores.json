@@ -1,0 +1,12 @@
+{
+    "colores": [
+        {
+            "qrColor": "#000000",
+            "bgColor": "#ffffff"
+        } ,
+        {
+           "qrColor": "#fff",
+            "bgColor": "#000"
+        }
+    ]
+}
