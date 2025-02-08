@@ -1,0 +1,39 @@
+{
+    "name": "aulaPass b1",
+    "short_name": "aulaPass b1",
+    "description": "Genera códigos QR para aulaPass",
+    "theme_color": "#1E429F",
+    "background_color": "#000000",
+    "display": "standalone",
+    "orientation": "natural",
+    "scope": "/",
+    "start_url": "/index.html",
+    "icons": [
+        {
+            "src": "/aulapass-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/aulapass-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/aulapass-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "categories": [
+        "educación",
+        "productividad"
+    ],
+    "screenshots": [
+        {
+            "src": "/ssaulaPass.png",
+            "sizes": "640x480",
+            "type": "image/png"
+        }
+    ]
+}
