@@ -8,6 +8,7 @@
     "orientation": "natural",
     "scope": "/",
     "start_url": "/index.html",
+    "display_override": ["window-controls-overlay"],
     "icons": [
         {
             "src": "/aulapass-192.png",
