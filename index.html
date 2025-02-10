@@ -22,7 +22,8 @@
     <link rel="manifest" href="manifest.json">
     <!-- Meta tags para PWA -->
     <meta name="theme-color" content="#1E429F">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"><!--  -->
     <style>
         body {
             -webkit-user-select: none;
@@ -140,39 +141,7 @@
         </form>
     </div>
 
-    <!-- Dentro de tu index.html, en el body -->
-    <button id="install-button" style="display: none;">Instalar App</button>
-
-    <script>
-        // Variable para almacenar el evento antes de instalar
-        let deferredPrompt;
-
-        // Escucha el evento beforeinstallprompt
-        window.addEventListener('beforeinstallprompt', (e) => {
-            // Previene la presentación automática del mini-infobar
-            e.preventDefault();
-            // Guarda el evento para usarlo más tarde
-            deferredPrompt = e;
-            // Muestra el botón de instalación (o cualquier UI que desees)
-            document.getElementById('install-button').style.display = 'block';
-            console.log('Evento beforeinstallprompt capturado');
-        });
-
-        // Cuando el usuario haga clic en el botón de instalar
-        document.getElementById('install-button').addEventListener('click', async () => {
-            // Oculta el botón ya que se va a lanzar el prompt
-            document.getElementById('install-button').style.display = 'none';
-            // Lanza el prompt de instalación
-            if (deferredPrompt) {
-                deferredPrompt.prompt();
-                // Espera a que el usuario responda al prompt
-                const { outcome } = await deferredPrompt.userChoice;
-                console.log(`El usuario ${outcome === 'accepted' ? 'aceptó' : 'rechazó'} la instalación.`);
-                // Una vez mostrado, se debe limpiar la variable
-                deferredPrompt = null;
-            }
-        });
-    </script>
+    
 
 
     <script src="https://cdn.jsdelivr.net/gh/baroninn/qrcodejs@master/jquery.min.js"></script>
