@@ -8,7 +8,9 @@
     "orientation": "natural",
     "scope": "/",
     "start_url": "/index.html",
-    "display_override": ["window-controls-overlay"],
+    "display_override": [
+        "window-controls-overlay"
+    ],
     "icons": [
         {
             "src": "/aulapass-192.png",
@@ -34,7 +36,9 @@
         {
             "src": "/ssaulaPass-2.png",
             "sizes": "640x480",
-            "type": "image/png"
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "aulaPass"
         }
     ]
 }
