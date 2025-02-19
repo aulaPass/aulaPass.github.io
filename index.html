@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>aulaPass</title>
     <!-- Fuentes de Material Design -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,7 +11,18 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="colores.json"></script>
-    
+    <!-- Favicon para navegadores -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav-16.png">
+
+    <!-- Ícono para dispositivos Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav-180.png">
+
+    <!-- Manifest para PWA -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Meta tags para PWA -->
+    <meta name="theme-color" content="#1E429F">
+    <meta name="mobile-web-app-capable" content="yes">
     <style>
         body {
             -webkit-user-select: none;
@@ -60,8 +70,7 @@
         <form class="max-w-sm mx-auto">
             <div class="space-y-4">
                 <div>
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
                         Paterno:</label>
                     <input type="text" id="apellidoPaterno"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -69,8 +78,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
                         Materno:</label>
                     <input type="text" id="apellidoMaterno"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -78,16 +86,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre(s):</label>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre(s):</label>
                     <input type="text" id="nombres"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         required>
                 </div>
 
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número de
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número de
                         Control:</label>
                     <input type="number" id="numeroControl"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -95,8 +101,7 @@
 
                 <!-- Se divide el select Grupo en dos selects: uno para Semestre y otro para Grupo -->
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Semestre:</label>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Semestre:</label>
                     <select id="semestre"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="" selected>Elige un semestre</option>
@@ -110,8 +115,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Grupo:</label>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Grupo:</label>
                     <select id="grupoLetra"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="" selected>Elige un grupo</option>
@@ -124,8 +128,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Especialidad:</label>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Especialidad:</label>
                     <select id="especialidad"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="" selected>Elige una especialidad</option>
