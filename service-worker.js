@@ -1,9 +1,7 @@
 // service-worker.js
 
 // Nombre de la cache (versionable para facilitar la limpieza de versiones antiguas)
-const CACHE_NAME = 'aulaPass-cache-v2';
-
-// Lista de URLs y recursos a cachear durante la instalación
+const CACHE_NAME = 'aulaPass-cache-v3';
 const urlsToCache = [
   './',                          // Página raíz
   './index.html',                // Página principal
@@ -19,8 +17,13 @@ const urlsToCache = [
   'https://cdn.jsdelivr.net/gh/baroninn/qrcodejs@master/qrcode.js'
 ];
 
-// Evento "install": Se instala el Service Worker y se cachean los recursos definidos.
+/**
+ * Evento "install":
+ * - Se cachean los recursos esenciales.
+ * - Se llama a skipWaiting() para activar inmediatamente el nuevo service worker.
+ */
 self.addEventListener('install', event => {
+  self.skipWaiting(); // Fuerza la activación inmediata del nuevo service worker
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
@@ -31,17 +34,20 @@ self.addEventListener('install', event => {
   );
 });
 
-// Evento "fetch": Estrategia Network First.
-// 1. Se intenta obtener la respuesta desde la red.
-// 2. Si es exitosa (status 200), se guarda una copia en la cache y se retorna la respuesta.
-// 3. Si falla la red, se intenta entregar la versión cacheada.
+/**
+ * Evento "fetch":
+ * Estrategia network-first:
+ * 1. Se intenta obtener la respuesta desde la red.
+ * 2. Si la respuesta es exitosa (status 200), se guarda una copia en la cache.
+ * 3. Si falla la conexión, se retorna una respuesta personalizada informando de la falta de conexión.
+ *    (Sin usar el contenido cacheado, ya que no se desea acceso offline).
+ */
 self.addEventListener('fetch', event => {
   event.respondWith(
     fetch(event.request)
       .then(networkResponse => {
-        // Si la respuesta es válida, se guarda en la cache
+        // Si la respuesta es válida, se almacena en la cache para futuras actualizaciones
         if (networkResponse && networkResponse.status === 200) {
-          // Se clona la respuesta para poder guardarla y retornarla a la vez
           const responseClone = networkResponse.clone();
           caches.open(CACHE_NAME)
             .then(cache => {
@@ -52,13 +58,21 @@ self.addEventListener('fetch', event => {
         return networkResponse;
       })
       .catch(() => {
-        // En caso de error en la red, se retorna la versión cacheada (si existe)
-        return caches.match(event.request);
+        // En caso de error en la red, se retorna una respuesta personalizada
+        return new Response('No hay conexión a internet. Por favor, revisa tu red.', {
+          status: 503,
+          statusText: 'Service Unavailable',
+          headers: new Headers({'Content-Type': 'text/plain'})
+        });
       })
   );
 });
 
-// Evento "activate": Se encarga de eliminar caches antiguos que no coincidan con la versión actual.
+/**
+ * Evento "activate":
+ * - Se eliminan caches antiguos que no coincidan con la versión actual.
+ * - Se llama a clients.claim() para tomar el control inmediato de las páginas.
+ */
 self.addEventListener('activate', event => {
   const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
@@ -72,6 +86,6 @@ self.addEventListener('activate', event => {
             }
           })
         );
-      })
+      }).then(() => self.clients.claim())
   );
 });
