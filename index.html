@@ -95,8 +95,10 @@
                 <div class="form-group">
                     <label class="block mb-2 text-sm font-medium text-white">Número de
                         Control:</label>
-                    <input type="number" id="numeroControl"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+                        <span class="text-white mr-2">2230906076</span>
+                        <input type="text" id="numeroControlSuffix" maxlength="4" pattern="\d{4}" placeholder="Últimos 4 dígitos"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+                            required>
                 </div>
 
                 <!-- Se divide el select Grupo en dos selects: uno para Semestre y otro para Grupo -->
@@ -147,7 +149,8 @@
         document.getElementById('apellidoPaterno').addEventListener('input', checkFields);
         document.getElementById('apellidoMaterno').addEventListener('input', checkFields);
         document.getElementById('nombres').addEventListener('input', checkFields);
-        document.getElementById('numeroControl').addEventListener('input', checkFields);
+        document.getElementById('numeroControlSuffix').addEventListener('input', checkFields);
+        //document.getElementById('numeroControl').addEventListener('input', checkFields);
         // Actualizamos los escuchadores para los nuevos selects de Semestre y Grupo
         document.getElementById('semestre').addEventListener('input', checkFields);
         document.getElementById('grupoLetra').addEventListener('input', checkFields);
@@ -169,7 +172,8 @@
             const apellidoPaterno = document.getElementById('apellidoPaterno').value.trim();
             const apellidoMaterno = document.getElementById('apellidoMaterno').value.trim();
             const nombres = document.getElementById('nombres').value.trim();
-            const numeroControl = document.getElementById('numeroControl').value.trim();
+            //const numeroControl = document.getElementById('numeroControl').value.trim();
+            const numeroControlSuffix = document.getElementById('numeroControlSuffix').value.trim();
             const semestre = document.getElementById('semestre').value.trim();
             const grupoLetra = document.getElementById('grupoLetra').value.trim();
             const especialidad = document.getElementById('especialidad').value.trim();
@@ -182,6 +186,37 @@
             document.getElementById('download-button').disabled = !allFieldsFilled;
         }
 
+        // Función para guardar datos en localStorage
+        function saveData() {
+            const data = {
+                apellidoPaterno: document.getElementById('apellidoPaterno').value,
+                apellidoMaterno: document.getElementById('apellidoMaterno').value,
+                nombres: document.getElementById('nombres').value,
+                numeroControlSuffix: document.getElementById('numeroControlSuffix').value,
+                semestre: document.getElementById('semestre').value,
+                grupoLetra: document.getElementById('grupoLetra').value,
+                especialidad: document.getElementById('especialidad').value
+            };
+            localStorage.setItem('userData', JSON.stringify(data));
+        }
+
+        // Función para cargar datos desde localStorage
+        function loadData() {
+            const data = JSON.parse(localStorage.getItem('userData'));
+            if (data) {
+                document.getElementById('apellidoPaterno').value = data.apellidoPaterno || '';
+                document.getElementById('apellidoMaterno').value = data.apellidoMaterno || '';
+                document.getElementById('nombres').value = data.nombres || '';
+                document.getElementById('numeroControlSuffix').value = data.numeroControlSuffix || '';
+                document.getElementById('semestre').value = data.semestre || '';
+                document.getElementById('grupoLetra').value = data.grupoLetra || '';
+                document.getElementById('especialidad').value = data.especialidad || '';
+                checkFields(); // Verificar campos después de cargar
+            }
+        }
+
+        // Cargar datos al iniciar
+        loadData();
         // Cargar el archivo colores.json
         fetch('colores.json')
             .then(response => response.json())
@@ -207,7 +242,14 @@
                 // Función para generar el código QR
                 function makeCode() {
                     var nombreCompleto = generarNombreCompleto();
-                    var numeroControl = document.getElementById('numeroControl').value;
+                    const numeroControlPrefix = '2230906076';
+                    const numeroControlSuffix = document.getElementById('numeroControlSuffix').value.trim();
+                    if (!/^\d{4}$/.test(numeroControlSuffix)) {
+                        alert('Por favor, ingrese exactamente 4 dígitos numéricos para el número de control.');
+                        return;
+                    }
+                    const numeroControl = numeroControlPrefix + numeroControlSuffix;
+                    //var numeroControl = document.getElementById('numeroControl').value;
                     // Obtener los valores de semestre y grupoLetra y unirlos para formar la variable "grupo"
                     var semestre = document.getElementById('semestre').value;
                     var grupoLetra = document.getElementById('grupoLetra').value;
