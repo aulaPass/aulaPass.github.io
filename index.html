@@ -554,7 +554,7 @@
             var encodedQRText = encodeURIComponent(qrText);
 
             // Utilizar la API de QRServer para generar el código QR
-            var qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodedQRText}&bgcolor=d9f9fa`;
+            var qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodedQRText}&bgcolor=d2fbfc`;
             document.getElementById("qrcode").innerHTML = `<img src="${qrUrl}">`;
 
             // Cambiar los colores del QR y la interfaz
