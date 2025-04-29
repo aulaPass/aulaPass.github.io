@@ -432,7 +432,7 @@
             const numeroControlInicio = document.getElementById('numeroControlInicio').value.trim();
             const numeroControlFin = document.getElementById('numeroControlFin').value.trim();
             if (numeroControlInicio.length === 2 && numeroControlFin.length === 6) {
-                const nControlCompleto = `${numeroControlInicio}30906076${numeroControlFin}`;
+                const nControlCompleto = `${numeroControlInicio}309060${numeroControlFin}`;
                 const estudiante = estudiantesData.find(est => est["No. Control"] == nControlCompleto);
                 if (estudiante) {
                     // Mostrar campos adicionales
@@ -623,7 +623,7 @@
                     const nControlInicio = document.getElementById('numeroControlInicio').value.trim();
                     const nControlFin = document.getElementById('numeroControlFin').value.trim();
                     link.href = URL.createObjectURL(blob);
-                    link.download = `aulaPass_${nControlInicio}30906076${nControlFin}.png`;
+                    link.download = `aulaPass_${nControlInicio}309060${nControlFin}.png`;
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
