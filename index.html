@@ -194,9 +194,9 @@
                                 <input type="text" id="numeroControlInicio" maxlength="2" pattern="\d{2}"
                                     placeholder="Primeros 2 dígitos" class="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-full focus:ring-blue-500 focus:border-blue-500 w-16 p-2.5 bg-gray-700 border-gray-500 placeholder-gray-200 text-white focus:ring-blue-500 focus:border-blue-500 text-center
                             " required onclick="quitaQR()">
-                                <span class="text-white mx-1 p-2.5 align-middle font-semibold">30906076</span>
-                                <input type="text" id="numeroControlFin" maxlength="4" pattern="\d{4}"
-                                    placeholder="Últimos 4 dígitos" class="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-full focus:ring-blue-500 focus:border-blue-500 w-2/6 p-2.5 bg-gray-700 border-gray-500 placeholder-gray-200 text-white focus:ring-blue-500 focus:border-blue-500 text-center
+                                <span class="text-white mx-1 p-2.5 align-middle font-semibold">309060</span>
+                                <input type="text" id="numeroControlFin" maxlength="6" pattern="\d{6}"
+                                    placeholder="Últimos 6 dígitos" class="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-full focus:ring-blue-500 focus:border-blue-500 w-2/6 p-2.5 bg-gray-700 border-gray-500 placeholder-gray-200 text-white focus:ring-blue-500 focus:border-blue-500 text-center
                             " required onclick="quitaQR()">
 
                             </div>
@@ -372,11 +372,11 @@
         document.getElementById('numeroControlFin').addEventListener('focusout', buscarYAutoRellenar);
         document.getElementById('numeroControlFin').addEventListener('input', function () {
             const finValue = this.value.trim();
-            if (finValue.length === 4) {
+            if (finValue.length === 6) {
                 buscarYAutoRellenar();
 
-            } else if (finValue.length < 4) {
-                // Ocultar campos adicionales si el número de control es menor a 4 dígitos
+            } else if (finValue.length < 6) {
+                // Ocultar campos adicionales si el número de control es menor a 6 dígitos
                 camposAdicionales.classList.add('hidden-fields');
                 document.getElementById('generate-button').disabled = true;
                 document.getElementById('download-button').disabled = true;
@@ -431,7 +431,7 @@
             quitaQR()
             const numeroControlInicio = document.getElementById('numeroControlInicio').value.trim();
             const numeroControlFin = document.getElementById('numeroControlFin').value.trim();
-            if (numeroControlInicio.length === 2 && numeroControlFin.length === 4) {
+            if (numeroControlInicio.length === 2 && numeroControlFin.length === 6) {
                 const nControlCompleto = `${numeroControlInicio}30906076${numeroControlFin}`;
                 const estudiante = estudiantesData.find(est => est["No. Control"] == nControlCompleto);
                 if (estudiante) {
@@ -473,10 +473,10 @@
             const numeroControlInicio = document.getElementById('numeroControlInicio').value.trim();
             const numeroControlFin = document.getElementById('numeroControlFin').value.trim();
             const regexInicio = /^\d{2}$/;
-            const regexFin = /^\d{4}$/;
+            const regexFin = /^\d{6}$/;
 
             if (!regexInicio.test(numeroControlInicio) || !regexFin.test(numeroControlFin)) {
-                alert('Por favor, ingrese exactamente 2 dígitos para el inicio y 4 dígitos para el final del número de control.');
+                alert('Por favor, ingrese exactamente 2 dígitos para el inicio y 6 dígitos para el final del número de control.');
                 document.getElementById('generate-button').disabled = true;
                 document.getElementById('download-button').disabled = true;
             } else {
@@ -486,10 +486,10 @@
 
         function validarNumeroControl() {
             const numeroControl = document.getElementById('numeroControl').value.trim();
-            const regex = /^\d{4}$/; // Expresión regular para exactamente 4 dígitos numéricos
+            const regex = /^\d{6}$/; // Expresión regular para exactamente 6 dígitos numéricos
 
             if (!regex.test(numeroControl)) {
-                alert('Por favor, ingrese exactamente 4 dígitos numéricos para el número de control.');
+                alert('Por favor, ingrese exactamente 6 dígitos numéricos para el número de control.');
                 document.getElementById('generate-button').disabled = true;
                 document.getElementById('downloa-button').disabled = true;
 
@@ -542,7 +542,7 @@
             var nombreCompleto = generarNombreCompleto();
             const numeroControlInicio = document.getElementById('numeroControlInicio').value.trim();
             const numeroControlFin = document.getElementById('numeroControlFin').value.trim();
-            const nControlCompleto = `${numeroControlInicio}30906076${numeroControlFin}`;
+            const nControlCompleto = `${numeroControlInicio}309060${numeroControlFin}`;
             /*  var numeroControl = document.getElementById('numeroControl').value;
              var nControlCompleto = `2230906076${numeroControl}`; */
             // Obtener los valores de semestre y grupoLetra y unirlos para formar la variable "grupo"
