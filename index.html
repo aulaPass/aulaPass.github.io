@@ -577,6 +577,7 @@
             errorModalMessage.textContent = message; // Actualiza el mensaje
             errorModal.classList.remove('modal-hidden');
             errorModal.classList.add('modal-visible');
+            window.navigator.vibrate(300);
             errorModal.setAttribute('aria-hidden', 'false');
         }
 
