@@ -24777,11 +24777,38 @@
     "Carrera": "RADIOLOGÍA E IMAGEN"
   },
   {
+    "No. Control": "C07625ENFA5005",
+    "Apellido Paterno": "HUERTA ",
+    "Apellido Materno": "LLENDE",
+    "Nombre(s)": "DANIEL",
+    "Grupo": "1A",
+    "Turno": "vespertino",
+    "Carrera": "ENFERMERÍA GENERAL"
+  },
+  {
     "No. Control": "C07625ENFB8000",
     "Apellido Paterno": "FONSECA",
     "Apellido Materno": "MORA",
     "Nombre(s)": "SANDRA GABRIELA",
     "Grupo": "1B",
+    "Turno": "vespertino",
+    "Carrera": "ENFERMERÍA GENERAL"
+  },
+  {
+    "No. Control": "C07625ENFA8100",
+    "Apellido Paterno": "MIVERA",
+    "Apellido Materno": "GARCIA",
+    "Nombre(s)": "SANTIAGO YAMIIL",
+    "Grupo": "1A",
+    "Turno": "vespertino",
+    "Carrera": "ENFERMERÍA GENERAL"
+  },
+  {
+    "No. Control": "C07625ENFC9000",
+    "Apellido Paterno": "CHAVEZ",
+    "Apellido Materno": "ORTEGA",
+    "Nombre(s)": "EMILI ABRIL",
+    "Grupo": "1C",
     "Turno": "vespertino",
     "Carrera": "ENFERMERÍA GENERAL"
   },
