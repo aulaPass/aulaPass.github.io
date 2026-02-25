@@ -1608,5 +1608,35 @@
     "Grupo": "2E",
     "Turno": "vespertino",
     "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-24T18:21:07.665Z",
+    "No. Control": 25309060760446,
+    "Apellido Paterno": "GONZÁLEZ ",
+    "Apellido Materno": "AGUIRRE ",
+    "Nombre(s)": "ANA PAOLA ",
+    "Grupo": "2E",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-24T22:11:59.688Z",
+    "No. Control": 25309060760047,
+    "Apellido Paterno": "DE LA CRUZ",
+    "Apellido Materno": "VÁZQUEZ",
+    "Nombre(s)": "DULCE AMPARO",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-24T22:12:14.617Z",
+    "No. Control": 25309060760039,
+    "Apellido Paterno": "CRUZ",
+    "Apellido Materno": "CRUZ",
+    "Nombre(s)": "LIZBETH ALEJANDRA ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
   }
 ]
