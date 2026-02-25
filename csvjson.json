@@ -1638,5 +1638,195 @@
     "Grupo": "2B",
     "Turno": "vespertino",
     "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:12:46.190Z",
+    "No. Control": 25309060760715,
+    "Apellido Paterno": "MILLAN",
+    "Apellido Materno": "DIAZ",
+    "Nombre(s)": "MARIO AXEL ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:14:10.067Z",
+    "No. Control": 25309060760727,
+    "Apellido Paterno": "RENTERIA ",
+    "Apellido Materno": "GONZÁLEZ ",
+    "Nombre(s)": "LEONARDO ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:14:45.965Z",
+    "No. Control": 25309060760641,
+    "Apellido Paterno": "ARRIETA ",
+    "Apellido Materno": "BARRERA ",
+    "Nombre(s)": "DYLAN",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:14:47.541Z",
+    "No. Control": 25309060760748,
+    "Apellido Paterno": "VILLEGAS",
+    "Apellido Materno": "TOLENTINO ",
+    "Nombre(s)": "GABRIELA ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:15:15.216Z",
+    "No. Control": 25309060760720,
+    "Apellido Paterno": "NANCO ",
+    "Apellido Materno": "TABOADA",
+    "Nombre(s)": "JUDITH ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:15:22.259Z",
+    "No. Control": 25309060760671,
+    "Apellido Paterno": "ROJAS",
+    "Apellido Materno": "CRUZ",
+    "Nombre(s)": "JOMATHAN",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:17:02.857Z",
+    "No. Control": 25309060760712,
+    "Apellido Paterno": "MARTINEZ",
+    "Apellido Materno": "RIVERA",
+    "Nombre(s)": "ZURIA XIMENA ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:17:46.672Z",
+    "No. Control": 25309060760644,
+    "Apellido Paterno": "BRIZ",
+    "Apellido Materno": "GARCIA",
+    "Nombre(s)": "MAURICIO",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:19:08.645Z",
+    "No. Control": 25309060760709,
+    "Apellido Paterno": "LOPEZ",
+    "Apellido Materno": "VALLEJO",
+    "Nombre(s)": "SEBASTIÁN LEVI",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:31:29.192Z",
+    "No. Control": 25309060760700,
+    "Apellido Paterno": "HERNÁNDEZ ",
+    "Apellido Materno": "SALAZAR",
+    "Nombre(s)": "ALEXANDER MOISÉS ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:31:44.400Z",
+    "No. Control": 25309060760754,
+    "Apellido Paterno": "ZAMORA",
+    "Apellido Materno": "ARROYO",
+    "Nombre(s)": "WENDY RAQUEL ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:35:43.011Z",
+    "No. Control": 25309060760665,
+    "Apellido Paterno": "CRUX",
+    "Apellido Materno": "RODRIGUEZ ",
+    "Nombre(s)": "DIEGO",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:43:56.394Z",
+    "No. Control": 25309060760635,
+    "Apellido Paterno": "AVILÁ ",
+    "Apellido Materno": "HERNANDÉZ ",
+    "Nombre(s)": "DYLAN LEONARDO ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:46:27.902Z",
+    "No. Control": 25309060760634,
+    "Apellido Paterno": "ÁVILA ",
+    "Apellido Materno": "HERNANDEZ ",
+    "Nombre(s)": "MISAEL ABIEZER ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:47:14.748Z",
+    "No. Control": 25309060760661,
+    "Apellido Paterno": "GARCÍA ",
+    "Apellido Materno": "VÁZQUEZ ",
+    "Nombre(s)": "VICTOR ISRAEL",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:47:48.454Z",
+    "No. Control": 25309060760764,
+    "Apellido Paterno": "DELGADO",
+    "Apellido Materno": "SUMANO ",
+    "Nombre(s)": "VICTOR MANUEL ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T01:51:20.305Z",
+    "No. Control": 25309060760795,
+    "Apellido Paterno": "JUAREZ ",
+    "Apellido Materno": "MARTINEZ ",
+    "Nombre(s)": "ESTEFANI YARETZY ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T02:20:28.488Z",
+    "No. Control": 25309060760675,
+    "Apellido Paterno": "HUERTA ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "SAORI KURENAI ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T02:45:52.626Z",
+    "No. Control": 25309060760647,
+    "Apellido Paterno": "DE LA ROSA",
+    "Apellido Materno": "SAN JUAN ",
+    "Nombre(s)": "ZARA POLETTE",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
   }
 ]
