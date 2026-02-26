@@ -1828,5 +1828,55 @@
     "Grupo": "2B",
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T16:46:37.424Z",
+    "No. Control": 25309060760776,
+    "Apellido Paterno": "CHAPARRO",
+    "Apellido Materno": "SANDOVAL",
+    "Nombre(s)": "SAAID MICHELLE ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T16:54:14.182Z",
+    "No. Control": 25309060760719,
+    "Apellido Paterno": "MUÑOZ",
+    "Apellido Materno": "APARICIO ",
+    "Nombre(s)": "LUIS SALVADOR ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T17:47:15.880Z",
+    "No. Control": 25309060760697,
+    "Apellido Paterno": "HERNÁNDEZ ",
+    "Apellido Materno": "FELIX",
+    "Nombre(s)": "MEGAN DAYANA ",
+    "Grupo": "2A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-25T18:23:47.830Z",
+    "No. Control": 25309060760397,
+    "Apellido Paterno": "CASTAÑEDA",
+    "Apellido Materno": "LUNA",
+    "Nombre(s)": "ANA KAROL",
+    "Grupo": "2E",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-25T20:27:46.957Z",
+    "No. Control": 25309060760652,
+    "Apellido Paterno": "GARCIA",
+    "Apellido Materno": "ORTIZ",
+    "Nombre(s)": "VIVIAN RENATA",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
   }
 ]
