@@ -1878,5 +1878,555 @@
     "Grupo": "2B",
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-26T07:04:47.684Z",
+    "No. Control": 25309060760733,
+    "Apellido Paterno": "RAMIREZ",
+    "Apellido Materno": "RUIZ",
+    "Nombre(s)": "SEBASTIÁN ANTONIO",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:20:04.112Z",
+    "No. Control": 23309060760123,
+    "Apellido Paterno": "SÁNCHEZ ",
+    "Apellido Materno": "BARRIOS",
+    "Nombre(s)": "ANGEL SANTIAGO",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:20:27.881Z",
+    "No. Control": 23309060760130,
+    "Apellido Paterno": "TAPIA",
+    "Apellido Materno": "LUIS",
+    "Nombre(s)": "JESSICA JANETH ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:20:35.303Z",
+    "No. Control": 23309060760026,
+    "Apellido Paterno": "CERVANTES",
+    "Apellido Materno": "VIDAL",
+    "Nombre(s)": "MARYFER",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:21:32.608Z",
+    "No. Control": 23309060760136,
+    "Apellido Paterno": "VILLANUEVA ",
+    "Apellido Materno": "PINO ",
+    "Nombre(s)": "MELANIE SHENIER ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:21:40.721Z",
+    "No. Control": 22309060760625,
+    "Apellido Paterno": "CORIA",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "CAMILA ITZEL ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:22:39.123Z",
+    "No. Control": 23309060760083,
+    "Apellido Paterno": "MENDEZ",
+    "Apellido Materno": "REYES",
+    "Nombre(s)": "NAZLI MABEL",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:24:49.623Z",
+    "No. Control": 23309060760835,
+    "Apellido Paterno": "ALTO",
+    "Apellido Materno": "ESPIRIDIÓN",
+    "Nombre(s)": "BRAULIO",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:29:12.605Z",
+    "No. Control": 23309060760422,
+    "Apellido Paterno": "MORENO",
+    "Apellido Materno": "MAYO",
+    "Nombre(s)": "GERSON ISRAEL ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:29:22.130Z",
+    "No. Control": 23309060760388,
+    "Apellido Paterno": "HERNANDEZ ",
+    "Apellido Materno": "VIZCARRA",
+    "Nombre(s)": "CESAR ARTURO",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:29:56.843Z",
+    "No. Control": 23309060760027,
+    "Apellido Paterno": "COLÍN ",
+    "Apellido Materno": "RAMÍREZ ",
+    "Nombre(s)": "GIOVANNY ALEJANDRO ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:31:14.537Z",
+    "No. Control": 23309060760397,
+    "Apellido Paterno": "HERNÁNDEZ ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "JOCELYN",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:31:49.136Z",
+    "No. Control": 23309060760166,
+    "Apellido Paterno": "DÍAZ",
+    "Apellido Materno": "DELGADO",
+    "Nombre(s)": "SANTIAGO ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:32:35.123Z",
+    "No. Control": 23309060760074,
+    "Apellido Paterno": "JUÁREZ ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "NATALIA SARAI",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:32:37.411Z",
+    "No. Control": 23309060760418,
+    "Apellido Paterno": "MENDOZA ",
+    "Apellido Materno": "CARRAZCO ",
+    "Nombre(s)": "OSCAR DAMIAN ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:34:14.831Z",
+    "No. Control": 23309060760001,
+    "Apellido Paterno": "AGUILAR",
+    "Apellido Materno": "ALFARO ",
+    "Nombre(s)": "JESICA ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:37:40.604Z",
+    "No. Control": 23309060760156,
+    "Apellido Paterno": "ZAMORA ",
+    "Apellido Materno": "ROJAS",
+    "Nombre(s)": "JESUS ANTONIO ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:38:30.775Z",
+    "No. Control": 23309060760120,
+    "Apellido Paterno": "RAMÍREZ ",
+    "Apellido Materno": "MERINO ",
+    "Nombre(s)": "JIMENA AILE",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T00:58:16.886Z",
+    "No. Control": 23309060760003,
+    "Apellido Paterno": "AGUILAR ",
+    "Apellido Materno": "OXTE",
+    "Nombre(s)": "ADRIAN EMMANUEL ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T01:10:35.440Z",
+    "No. Control": 23309060760114,
+    "Apellido Paterno": "RODRIGUEZ ",
+    "Apellido Materno": "OLIVARES ",
+    "Nombre(s)": "SHAYLA KARENIE ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T01:33:55.581Z",
+    "No. Control": 23309060760135,
+    "Apellido Paterno": "ROMERO",
+    "Apellido Materno": "SAN JUAN",
+    "Nombre(s)": "ALISON MICHAEL",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T01:37:18.419Z",
+    "No. Control": 23309060760168,
+    "Apellido Paterno": "ESTRADA ",
+    "Apellido Materno": "PEDROZA",
+    "Nombre(s)": "MEGAN LANÍ ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T01:44:30.225Z",
+    "No. Control": 23309060760417,
+    "Apellido Paterno": "MENDOZA",
+    "Apellido Materno": "RICO",
+    "Nombre(s)": "YAREN ALEJANDRA ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T01:48:52.762Z",
+    "No. Control": 23309060760155,
+    "Apellido Paterno": "VILLALBA",
+    "Apellido Materno": "MARTINEZ ",
+    "Nombre(s)": "ALEXIS",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T02:50:04.459Z",
+    "No. Control": 23309060760029,
+    "Apellido Paterno": "CRUZ",
+    "Apellido Materno": "NERI",
+    "Nombre(s)": "NAHOMI JAZMIN ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:04:34.390Z",
+    "No. Control": 23309060760109,
+    "Apellido Paterno": "ROMERO ",
+    "Apellido Materno": "JUÁREZ ",
+    "Nombre(s)": "JAFET ISAI ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:05:24.340Z",
+    "No. Control": 23309060760119,
+    "Apellido Paterno": "SOLIS ",
+    "Apellido Materno": "COTE",
+    "Nombre(s)": "DONOVAN",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:09:53.344Z",
+    "No. Control": 23309060760080,
+    "Apellido Paterno": "MURRIETA ",
+    "Apellido Materno": "VAZQUEZ ",
+    "Nombre(s)": "LAURA DANIELA ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:14:26.107Z",
+    "No. Control": 23309060760100,
+    "Apellido Paterno": "RAMÍREZ ",
+    "Apellido Materno": "VELAZQUEZ ",
+    "Nombre(s)": "VALERIA GUADALUPE ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:21:27.912Z",
+    "No. Control": 23309060760068,
+    "Apellido Paterno": "MARTINEZ",
+    "Apellido Materno": "RAMIREZ",
+    "Nombre(s)": "ARIADNA ZOE",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T03:40:32.498Z",
+    "No. Control": 23309060760085,
+    "Apellido Paterno": "LIRA",
+    "Apellido Materno": "SALGUERO ",
+    "Nombre(s)": "MELANIE RUBI",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T04:47:13.017Z",
+    "No. Control": 23309060760096,
+    "Apellido Paterno": "PÉREZ ",
+    "Apellido Materno": "BAUTISTA ",
+    "Nombre(s)": "CARLOS ARMANDO ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T04:55:05.636Z",
+    "No. Control": 23309060760040,
+    "Apellido Paterno": "GARCÍA ",
+    "Apellido Materno": "ESCAMILLA ",
+    "Nombre(s)": "AXEL OMAR ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T05:00:01.643Z",
+    "No. Control": 23309060760042,
+    "Apellido Paterno": "GONZALEZ ",
+    "Apellido Materno": "RAFAEL ",
+    "Nombre(s)": "KARLA ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T05:18:31.721Z",
+    "No. Control": 23309060760016,
+    "Apellido Paterno": "AVILA",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "ELIEZER EDUARDO",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T05:26:28.451Z",
+    "No. Control": 23309060760141,
+    "Apellido Paterno": "ALDANA",
+    "Apellido Materno": "RÍOS ",
+    "Nombre(s)": "JULIETTE ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T06:30:15.141Z",
+    "No. Control": 23309060760033,
+    "Apellido Paterno": "DIAZ",
+    "Apellido Materno": "ESTRADA",
+    "Nombre(s)": "IKER KALEL",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T06:44:20.158Z",
+    "No. Control": 23309060760030,
+    "Apellido Paterno": "CORIA",
+    "Apellido Materno": "LANDA",
+    "Nombre(s)": "ÁFRICA QUETZALI",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T07:06:55.372Z",
+    "No. Control": 23309060760034,
+    "Apellido Paterno": "DIAZ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "DANIELA ROSALBA",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T07:07:53.815Z",
+    "No. Control": 23309060760121,
+    "Apellido Paterno": "RUIZ",
+    "Apellido Materno": "AVENDAÑO",
+    "Nombre(s)": "OWEN OMAR",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T07:42:01.290Z",
+    "No. Control": 23309060760020,
+    "Apellido Paterno": "CARRERA",
+    "Apellido Materno": "MARTÍNEZ ",
+    "Nombre(s)": "LUZ YARELI",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T08:31:13.702Z",
+    "No. Control": 23309060760044,
+    "Apellido Paterno": "GONZÁLEZ ",
+    "Apellido Materno": "BAUTISTA ",
+    "Nombre(s)": "YOSGART ALEJANDRO ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T14:32:44.912Z",
+    "No. Control": 23309060760028,
+    "Apellido Paterno": "CAREAGA ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "XIMENA",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T17:32:04.584Z",
+    "No. Control": 23309060760095,
+    "Apellido Paterno": "PEDRO",
+    "Apellido Materno": "URIBE",
+    "Nombre(s)": "LYA AMAYA",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T19:43:14.091Z",
+    "No. Control": 23309060760102,
+    "Apellido Paterno": "RAMÍREZ ",
+    "Apellido Materno": "FERNÁNDEZ ",
+    "Nombre(s)": "JORGE SALVADOR ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T19:43:23.062Z",
+    "No. Control": 23309060760076,
+    "Apellido Paterno": "LUCAS",
+    "Apellido Materno": "MORALES",
+    "Nombre(s)": "MARTIN ELEAZAR",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T20:19:49.051Z",
+    "No. Control": 23309060760064,
+    "Apellido Paterno": "LÓPEZ ",
+    "Apellido Materno": "MARTÍNEZ ",
+    "Nombre(s)": "ADRIÁN ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T20:58:47.593Z",
+    "No. Control": 23309060760073,
+    "Apellido Paterno": "GUERRA ",
+    "Apellido Materno": "ALONSO ",
+    "Nombre(s)": "MARIA FERNANDA ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:24:13.095Z",
+    "No. Control": 23309060760413,
+    "Apellido Paterno": "CALDERÓN",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "JENNIFER DAISEL ",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:25:57.280Z",
+    "No. Control": 24309060760065,
+    "Apellido Paterno": "MERLOS",
+    "Apellido Materno": "REYES",
+    "Nombre(s)": "OSMAR HAZIEL",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:33:34.373Z",
+    "No. Control": 23309060760105,
+    "Apellido Paterno": "RODRIGUEZ ",
+    "Apellido Materno": "MORALES ",
+    "Nombre(s)": "GABRIELA ITZEL ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:34:03.527Z",
+    "No. Control": 23309060760127,
+    "Apellido Paterno": "ZEPEDA",
+    "Apellido Materno": "GARCIA",
+    "Nombre(s)": "ILZE BEATRIZ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:35:04.818Z",
+    "No. Control": 23309060760037,
+    "Apellido Paterno": "GARCIA ",
+    "Apellido Materno": "ZAPP",
+    "Nombre(s)": "XIMENA ZOE ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:35:18.678Z",
+    "No. Control": 23309060760019,
+    "Apellido Paterno": "BAUTISTA ",
+    "Apellido Materno": "RIVERA ",
+    "Nombre(s)": "JAIME FERNANDO ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T21:38:21.048Z",
+    "No. Control": 23309060760098,
+    "Apellido Paterno": "PÉREZ ",
+    "Apellido Materno": "HERNÁNDEZ ",
+    "Nombre(s)": "JESSICA MICHELLE ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
   }
 ]
