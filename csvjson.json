@@ -2478,5 +2478,15 @@
     "Grupo": "6B",
     "Turno": "vespertino",
     "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-01T00:26:54.000Z",
+    "No. Control": 12345678910000,
+    "Apellido Paterno": "Alumno",
+    "Apellido Materno": "Apellido",
+    "Nombre(s)": "Prueba",
+    "Grupo": "10C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
   }
 ]
