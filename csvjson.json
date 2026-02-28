@@ -2428,5 +2428,55 @@
     "Grupo": "6C",
     "Turno": "vespertino",
     "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T22:10:09.562Z",
+    "No. Control": 23309060760145,
+    "Apellido Paterno": "SÁNCHEZ ",
+    "Apellido Materno": "LUNA",
+    "Nombre(s)": "ANGEL JESHUA",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T22:24:29.723Z",
+    "No. Control": 23309060760038,
+    "Apellido Paterno": "DE LA CRUZ",
+    "Apellido Materno": "NOCHEBUENA ",
+    "Nombre(s)": "LESLIE ESTRELLA ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-27T23:52:48.807Z",
+    "No. Control": 23309060760043,
+    "Apellido Paterno": "DIAZ",
+    "Apellido Materno": "CRUZ",
+    "Nombre(s)": "CAMILA",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-28T00:20:04.197Z",
+    "No. Control": 23309060760008,
+    "Apellido Paterno": "BARROSO",
+    "Apellido Materno": "CASTELLANOS ",
+    "Nombre(s)": "BRISA YAMILETH ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-02-28T00:26:54.202Z",
+    "No. Control": 23309060760131,
+    "Apellido Paterno": "RAMIREZ ",
+    "Apellido Materno": "GARCIA",
+    "Nombre(s)": "JAVIER EZEQUIEL ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
   }
 ]
