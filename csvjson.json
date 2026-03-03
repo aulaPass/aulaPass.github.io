@@ -2480,6 +2480,80 @@
     "Carrera": "enfermería general"
   },
   {
+    "Marca temporal": "2026-03-02T18:32:38.875Z",
+    "No. Control": 23309060760005,
+    "Apellido Paterno": "ALARCON  ",
+    "Apellido Materno": "GONZÁLEZ ",
+    "Nombre(s)": "DULCE CITLALCOATL  ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-02T18:33:22.177Z",
+    "No. Control": 25309060760751,
+    "Apellido Paterno": "TORRES ",
+    "Apellido Materno": "GARCÍA ",
+    "Nombre(s)": "CARELY AZYADETH ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-02T19:51:36.034Z",
+    "No. Control": 25309060760643,
+    "Apellido Paterno": "CORONA",
+    "Apellido Materno": "CHAVARRIA",
+    "Nombre(s)": "ALEJANDRO ANTONIO",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-02T20:35:03.742Z",
+    "No. Control": 25309060760651,
+    "Apellido Paterno": "FIGUEROA ",
+    "Apellido Materno": "VÁZQUEZ ",
+    "Nombre(s)": "IAN LEONEL ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-02T21:57:29.201Z",
+    "No. Control": 23309060760023,
+    "Apellido Paterno": "BEJARANO ",
+    "Apellido Materno": "BECERRIL ",
+    "Nombre(s)": "YOSELIN ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-03T02:04:46.634Z",
+    "No. Control": 23309060760034,
+    "Apellido Paterno": "FUENTES ",
+    "Apellido Materno": "SAUCEDO ",
+    "Nombre(s)": "DIANA KAREN",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-03T06:12:22.265Z",
+    "No. Control": 25309060760685,
+    "Apellido Paterno": "MANRIQUEZ ",
+    "Apellido Materno": "HERRERA",
+    "Nombre(s)": "CARMEN",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+
+
+
+  
+  {
     "Marca temporal": "2026-03-01T00:26:54.000Z",
     "No. Control": 12345678910000,
     "Apellido Paterno": "Alumno",
