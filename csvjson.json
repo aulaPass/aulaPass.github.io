@@ -2549,7 +2549,96 @@
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
   },
-
+  { 
+    "Marca temporal": "2026-03-03T16:53:40.248Z",
+    "No. Control": 22309060760471,
+    "Apellido Paterno": "DORANTES ",
+    "Apellido Materno": "GARCÍA ",
+    "Nombre(s)": "MARÍA DE JESÚS ",
+    "Grupo": "6A",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-03T19:28:16.200Z",
+    "No. Control": 23309060760099,
+    "Apellido Paterno": "PIZANO",
+    "Apellido Materno": "MALDONADO ",
+    "Nombre(s)": "CRISTOPHER EDUARDO PIZANO MALDONADO ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-03T21:08:17.799Z",
+    "No. Control": 23309060760391,
+    "Apellido Paterno": "HERNÁNDEZ",
+    "Apellido Materno": "LÓPEZ",
+    "Nombre(s)": "DANIEL ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-04T04:20:09.855Z",
+    "No. Control": 23309060760122,
+    "Apellido Paterno": "VALENTIN",
+    "Apellido Materno": "MORALES",
+    "Nombre(s)": "KIMBERLY ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-04T04:40:59.830Z",
+    "No. Control": 23309060760827,
+    "Apellido Paterno": "GALVEZ",
+    "Apellido Materno": "GOMEZ",
+    "Nombre(s)": "KATIA GERALDYNE ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-05T01:17:56.964Z",
+    "No. Control": 24309060760462,
+    "Apellido Paterno": "CIPRES",
+    "Apellido Materno": "VALENCIA",
+    "Nombre(s)": "ARMANDO",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-05T01:18:14.882Z",
+    "No. Control": 24309060760009,
+    "Apellido Paterno": "CHAVEZ",
+    "Apellido Materno": "ALVAREZ",
+    "Nombre(s)": "JUAN ALEJANDRO ",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-05T20:32:20.257Z",
+    "No. Control": 25309060760132,
+    "Apellido Paterno": "RAMOS ",
+    "Apellido Materno": "GUZMÁN ",
+    "Nombre(s)": "REGINA CITLALMINA ",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-05T22:27:47.180Z",
+    "No. Control": 24309060760862,
+    "Apellido Paterno": "MARTINEZ",
+    "Apellido Materno": "JIMENEZ ",
+    "Nombre(s)": "SHARON ISABELLA",
+    "Grupo": "4B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
 
 
 
