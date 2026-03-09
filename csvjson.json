@@ -2719,6 +2719,336 @@
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
   },
+  {
+    "Marca temporal": "2026-03-06T01:32:12.156Z",
+    "No. Control": 23309060760061,
+    "Apellido Paterno": "JUÁREZ",
+    "Apellido Materno": "BAUTISTA",
+    "Nombre(s)": "ABIGAIL",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T02:46:32.478Z",
+    "No. Control": 23309060760113,
+    "Apellido Paterno": "SÁNCHEZ ",
+    "Apellido Materno": "BENÍTEZ ",
+    "Nombre(s)": "LIDIA VALENTINA ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T05:08:39.750Z",
+    "No. Control": 23309060760048,
+    "Apellido Paterno": "GUZMÁN ",
+    "Apellido Materno": "ROMERO ",
+    "Nombre(s)": "LEONARDO ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T19:16:50.221Z",
+    "No. Control": 23309060760056,
+    "Apellido Paterno": "GUZMÁN ",
+    "Apellido Materno": "DOMINGUEZ ",
+    "Nombre(s)": "DANA PAOLA ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T20:23:43.857Z",
+    "No. Control": 24309060760180,
+    "Apellido Paterno": "SANCHEZ",
+    "Apellido Materno": "GUTIÉRREZ ",
+    "Nombre(s)": "SIRENIA MARIANA ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T20:24:04.093Z",
+    "No. Control": 24309060760098,
+    "Apellido Paterno": "FRIAS",
+    "Apellido Materno": "HERNANDEZ ",
+    "Nombre(s)": "DANNA AXAYALLI ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T20:26:40.342Z",
+    "No. Control": 24309060760899,
+    "Apellido Paterno": "ESTRADA ",
+    "Apellido Materno": "VÁZQUEZ ",
+    "Nombre(s)": "NORMA ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T21:05:09.848Z",
+    "No. Control": 24309060760091,
+    "Apellido Paterno": "DOMÍNGUEZ ",
+    "Apellido Materno": "ORDAZ ",
+    "Nombre(s)": "AMÉRICA CITLALLI ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T21:08:51.986Z",
+    "No. Control": 25309060760032,
+    "Apellido Paterno": "ESPINOZA ",
+    "Apellido Materno": "CRUZ",
+    "Nombre(s)": "JOTSE MAGALY ",
+    "Grupo": "2C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T21:15:14.471Z",
+    "No. Control": 23309060760828,
+    "Apellido Paterno": "LÓPEZ ",
+    "Apellido Materno": "MUÑIZ",
+    "Nombre(s)": "EYMI MONSERRAT ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T21:49:17.332Z",
+    "No. Control": 23309060760002,
+    "Apellido Paterno": "ACO",
+    "Apellido Materno": "MENDOZA ",
+    "Nombre(s)": "MONTSERRAT YENEBIT ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T22:09:43.582Z",
+    "No. Control": 23309060760107,
+    "Apellido Paterno": "RODRÍGUEZ",
+    "Apellido Materno": "ESQUIVEL",
+    "Nombre(s)": "ABRIL ADAMARI ",
+    "Grupo": "6C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T22:33:50.578Z",
+    "No. Control": 24309060760868,
+    "Apellido Paterno": "HERNÁNDEZ ",
+    "Apellido Materno": "ROBLES ",
+    "Nombre(s)": "DANIEL",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-06T23:55:33.191Z",
+    "No. Control": 24309060760171,
+    "Apellido Paterno": "ROMO",
+    "Apellido Materno": "GONZÁLEZ ",
+    "Nombre(s)": "LAURA VERÓNICA ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:30:23.182Z",
+    "No. Control": 24309060760563,
+    "Apellido Paterno": "SALDAÑA",
+    "Apellido Materno": "ALBERTO",
+    "Nombre(s)": "CRUZ GABRIEL",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:38:24.073Z",
+    "No. Control": 24309060760532,
+    "Apellido Paterno": "RAMIREZ",
+    "Apellido Materno": "CHAVEZ",
+    "Nombre(s)": "VICTOR MANUEL",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:38:26.090Z",
+    "No. Control": 24309060760530,
+    "Apellido Paterno": "PIÑA ",
+    "Apellido Materno": "QUINTANA ",
+    "Nombre(s)": "KENNETH  ALEXANDER ",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:43:01.004Z",
+    "No. Control": 23309060760153,
+    "Apellido Paterno": "VAZQUEZ",
+    "Apellido Materno": "MATERNO",
+    "Nombre(s)": "ALISSON SHANTAL ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:44:41.181Z",
+    "No. Control": 24309060760489,
+    "Apellido Paterno": "GALICIA ",
+    "Apellido Materno": "JUAREZ ",
+    "Nombre(s)": "AARON",
+    "Grupo": "4A",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:45:17.382Z",
+    "No. Control": 23309060760150,
+    "Apellido Paterno": "SOTO ",
+    "Apellido Materno": "MARTINEZ ",
+    "Nombre(s)": "JOSE GABRIEL ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-07T00:47:26.598Z",
+    "No. Control": 23309060760092,
+    "Apellido Paterno": "MORENO",
+    "Apellido Materno": "LOPEZ",
+    "Nombre(s)": "ALLISON CAMILA ",
+    "Grupo": "6B",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-07T05:41:45.836Z",
+    "No. Control": 24309060760177,
+    "Apellido Paterno": "SALVADOR",
+    "Apellido Materno": "ROMERO",
+    "Nombre(s)": "VICTOR ANGEL",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T17:24:49.178Z",
+    "No. Control": 24309060760040,
+    "Apellido Paterno": "AYUSO ",
+    "Apellido Materno": "LUGO",
+    "Nombre(s)": "LIONEL ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T17:33:14.762Z",
+    "No. Control": 24309060760189,
+    "Apellido Paterno": "MENDIOLA",
+    "Apellido Materno": "GAONA",
+    "Nombre(s)": "SANTIAGO",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T17:39:24.795Z",
+    "No. Control": 24309060760043,
+    "Apellido Paterno": "BÁRCENAS ",
+    "Apellido Materno": "GARCÍA ",
+    "Nombre(s)": "HÉCTOR GABRIEL ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:14:08.166Z",
+    "No. Control": 24309060760057,
+    "Apellido Paterno": "CERVANTES ",
+    "Apellido Materno": "SÁNCHEZ ",
+    "Nombre(s)": "CERVANTES SÁNCHEZ ALFONSO ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:14:33.604Z",
+    "No. Control": 24309060760179,
+    "Apellido Paterno": "MEDINA",
+    "Apellido Materno": "GÓMEZ ",
+    "Nombre(s)": "SAMANTHA ABIGAIL",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:17:43.531Z",
+    "No. Control": 24309060760103,
+    "Apellido Paterno": "GALICIA",
+    "Apellido Materno": "MONTAÑO",
+    "Nombre(s)": "YARA ALEXANDRA ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:34:59.800Z",
+    "No. Control": 24309060760175,
+    "Apellido Paterno": "NUÑEZ ",
+    "Apellido Materno": "BASTIDA ",
+    "Nombre(s)": "SAUL EDUARDO ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:42:14.106Z",
+    "No. Control": 25309060060193,
+    "Apellido Paterno": "GONZALEZ ",
+    "Apellido Materno": "CRUZ ",
+    "Nombre(s)": "JARED JOSAFAT",
+    "Grupo": "2B",
+    "Turno": "vespertino",
+    "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "2026-03-09T18:47:11.952Z",
+    "No. Control": 24306090760008,
+    "Apellido Paterno": "AGUILAR ",
+    "Apellido Materno": "MENDEZ",
+    "Nombre(s)": "MELANY WENDY",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T19:08:11.940Z",
+    "No. Control": 24309060760068,
+    "Apellido Paterno": "CORONA",
+    "Apellido Materno": "SANCHEZ",
+    "Nombre(s)": "LEONARDO DAVID",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
+  {
+    "Marca temporal": "2026-03-09T20:29:26.956Z",
+    "No. Control": 24309060760039,
+    "Apellido Paterno": "AYALA ",
+    "Apellido Materno": "VELÁZQUEZ ",
+    "Nombre(s)": "LESLIE SARAI ",
+    "Grupo": "4C",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
+  },
 
 
 
