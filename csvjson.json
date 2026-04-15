@@ -1,5 +1,5 @@
 [
- {
+  {
     "Marca temporal": "",
     "No. Control": 23309060760001,
     "Apellido Paterno": "AGUILAR",
@@ -9479,7 +9479,7 @@
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
   },
-{
+  {
     "Marca temporal": "",
     "No. Control": 25309060760738,
     "Apellido Paterno": "RIVAS",
@@ -9488,6 +9488,16 @@
     "Grupo": "2B",
     "Turno": "vespertino",
     "Carrera": "radiología e imagen"
+  },
+  {
+    "Marca temporal": "",
+    "No. Control": 24309060760441,
+    "Apellido Paterno": "CALLEJAS",
+    "Apellido Materno": "RAMIREZ",
+    "Nombre(s)": "VICTOR GUSTAVO",
+    "Grupo": "4E",
+    "Turno": "vespertino",
+    "Carrera": "enfermería general"
   },
 
 
